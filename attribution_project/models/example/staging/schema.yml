@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: stg_ga4_events
+    description: "Staging model flattening raw nested GA4 data."
+    columns:
+      - name: event_id
+        tests:
+          - unique
+          - not_null
+      - name: user_pseudo_id
+        tests:
+          - not_null
