@@ -2,12 +2,12 @@ import uuid
 from datetime import datetime, timezone
 from google.cloud import bigquery
 
-# Keep your actual GCP Project ID
 project_id = "customerlabs-task-8888" 
 dataset_id = "analytics_stg"
 table_id = f"{project_id}.{dataset_id}.streamed_events"
 
 client = bigquery.Client(project=project_id)
+
 
 # 1. Define schema
 schema = [
@@ -34,7 +34,7 @@ for _ in range(events_to_stream):
         "insert_id": str(uuid.uuid4())
     })
 
-# 3. Use a Load Job (Allowed in Free Tier, creates table automatically)
+# 3. Use a Load Job 
 job_config = bigquery.LoadJobConfig(
     schema=schema,
     write_disposition="WRITE_APPEND" 
