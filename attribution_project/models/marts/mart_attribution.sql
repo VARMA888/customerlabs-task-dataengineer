@@ -1,3 +1,4 @@
+{{ config(materialized='table') }}
 WITH user_traffic AS (
     SELECT
         user_pseudo_id,
