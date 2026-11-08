@@ -1,0 +1,195 @@
+[0m20:00:00.033148 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f97380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109046450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1090461b0>]}
+
+
+============================== 20:00:00.037606 | fe4f3c2f-447d-4ec1-958b-094216d03364 ==============================
+[0m20:00:00.037606 [info ] [MainThread]: Running with dbt=1.12.0
+[0m20:00:00.038178 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'static_parser': 'True', 'log_format': 'default', 'empty': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'introspect': 'True', 'profiles_dir': '/Users/varmathotakura/.dbt', 'maximum_seed_size_mib': '1', 'write_json': 'True', 'version_check': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt init attribution_project', 'indirect_selection': 'eager', 'warn_error': 'None', 'cache_selected_only': 'False', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'hints_enabled': 'True', 'debug': 'False', 'quiet': 'False', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'printer_width': '80', 'no_print': 'None', 'partial_parse': 'True'}
+[0m20:00:00.052928 [info ] [MainThread]: A project called attribution_project already exists here.
+[0m20:00:00.067679 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.15325654, "process_in_blocks": "0", "process_kernel_time": 0.269359, "process_mem_max_rss": "123355136", "process_out_blocks": "0", "process_user_time": 1.423777}
+[0m20:00:00.068238 [debug] [MainThread]: Command `dbt init` succeeded at 20:00:00.068131 after 0.15 seconds
+[0m20:00:00.068621 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1090e2930>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108fd06b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1090747a0>]}
+[0m20:00:00.068955 [debug] [MainThread]: Flushing usage events
+[0m20:00:02.084753 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:03:10.702607 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c02510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a4e330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a4e090>]}
+
+
+============================== 20:03:10.706718 | 6f9bd2fb-6816-46d9-aa72-b34e78f21a64 ==============================
+[0m20:03:10.706718 [info ] [MainThread]: Running with dbt=1.12.0
+[0m20:03:10.707260 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'introspect': 'True', 'indirect_selection': 'eager', 'partial_parse': 'True', 'log_format': 'default', 'log_path': 'logs', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'cache_selected_only': 'False', 'empty': 'None', 'use_colors': 'True', 'quiet': 'False', 'invocation_command': 'dbt init attribution_project', 'version_check': 'True', 'log_cache_events': 'False', 'hints_enabled': 'True', 'fail_fast': 'False', 'warn_error': 'None', 'printer_width': '80', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'debug': 'False', 'write_json': 'True', 'profiles_dir': '/Users/varmathotakura/.dbt'}
+[0m20:03:10.721802 [info ] [MainThread]: A project called attribution_project already exists here.
+[0m20:03:10.724795 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.13029195, "process_in_blocks": "0", "process_kernel_time": 0.238913, "process_mem_max_rss": "122224640", "process_out_blocks": "0", "process_user_time": 1.415863}
+[0m20:03:10.725286 [debug] [MainThread]: Command `dbt init` succeeded at 20:03:10.725190 after 0.13 seconds
+[0m20:03:10.725611 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107890200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a7cef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a7e630>]}
+[0m20:03:10.725933 [debug] [MainThread]: Flushing usage events
+[0m20:03:12.854884 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:04:01.816164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c9b290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a54e420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a54e180>]}
+
+
+============================== 20:04:01.820305 | 93fd0c09-e536-49c2-bcc7-8ed294bc4c94 ==============================
+[0m20:04:01.820305 [info ] [MainThread]: Running with dbt=1.12.0
+[0m20:04:01.820879 [debug] [MainThread]: running dbt with arguments {'log_path': 'logs', 'maximum_seed_size_mib': '1', 'write_json': 'True', 'invocation_command': 'dbt init attribution_project', 'static_parser': 'True', 'printer_width': '80', 'fail_fast': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'warn_error': 'None', 'no_print': 'None', 'version_check': 'True', 'use_colors': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'hints_enabled': 'True', 'send_anonymous_usage_stats': 'True', 'log_format': 'default', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'profiles_dir': '/Users/varmathotakura/.dbt', 'cache_selected_only': 'False', 'target_path': 'None', 'partial_parse': 'True', 'quiet': 'False'}
+[0m20:04:01.835302 [debug] [MainThread]: Starter project path: /opt/anaconda3/lib/python3.12/site-packages/dbt/include/starter_project
+[0m20:04:01.840809 [info ] [MainThread]: Setting up your profile.
+[0m20:06:40.451521 [info ] [MainThread]: Profile attribution_project written to /Users/varmathotakura/.dbt/profiles.yml using target's profile_template.yml and your supplied values.
+[0m20:06:40.463066 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m20:06:40.464157 [info ] [MainThread]: dbt version: 1.12.0
+[0m20:06:40.464508 [info ] [MainThread]: python version: 3.12.2
+[0m20:06:40.464802 [info ] [MainThread]: python path: /opt/anaconda3/bin/python
+[0m20:06:40.465107 [info ] [MainThread]: os info: macOS-26.6.2-arm64-arm-64bit
+[0m20:06:40.655879 [info ] [MainThread]: Using profiles dir at /Users/varmathotakura/.dbt
+[0m20:06:40.656349 [info ] [MainThread]: Using profiles.yml file at /Users/varmathotakura/.dbt/profiles.yml
+[0m20:06:40.656649 [info ] [MainThread]: Using dbt_project.yml file at /Users/varmathotakura/deproject/chennai/attribution_project/dbt_project.yml
+[0m20:06:40.656911 [info ] [MainThread]: adapter type: bigquery
+[0m20:06:40.657151 [info ] [MainThread]: adapter version: 1.12.0
+[0m20:06:40.774863 [info ] [MainThread]: Configuration:
+[0m20:06:40.775295 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:06:40.775578 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m20:06:40.775839 [info ] [MainThread]: Required dependencies:
+[0m20:06:40.776187 [debug] [MainThread]: Executing "git --help"
+[0m20:06:40.830601 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:06:40.831521 [debug] [MainThread]: STDERR: "b''"
+[0m20:06:40.831867 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:06:40.832171 [info ] [MainThread]: Connection:
+[0m20:06:40.832499 [info ] [MainThread]:   method: oauth
+[0m20:06:40.832741 [info ] [MainThread]:   database: customerlabs-task-8888
+[0m20:06:40.833121 [info ] [MainThread]:   execution_project: customerlabs-task-8888
+[0m20:06:40.833461 [info ] [MainThread]:   schema: analytics_stg
+[0m20:06:40.833718 [info ] [MainThread]:   location: US
+[0m20:06:40.833956 [info ] [MainThread]:   priority: interactive
+[0m20:06:40.834191 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m20:06:40.834422 [info ] [MainThread]:   reservation: None
+[0m20:06:40.834672 [info ] [MainThread]:   impersonate_service_account: None
+[0m20:06:40.834895 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m20:06:40.835117 [info ] [MainThread]:   job_retries: 1
+[0m20:06:40.835333 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m20:06:40.835548 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m20:06:40.835768 [info ] [MainThread]:   job_link_info_level_log: False
+[0m20:06:40.835982 [info ] [MainThread]:   timeout_seconds: 300
+[0m20:06:40.836194 [info ] [MainThread]:   client_id: None
+[0m20:06:40.836404 [info ] [MainThread]:   token_uri: None
+[0m20:06:40.836616 [info ] [MainThread]:   compute_region: None
+[0m20:06:40.836839 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m20:06:40.837048 [info ] [MainThread]:   gcs_bucket: None
+[0m20:06:40.837257 [info ] [MainThread]:   dataproc_batch: None
+[0m20:06:40.837955 [info ] [MainThread]: Registered adapter: bigquery=1.12.0
+[0m20:06:41.041904 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m20:06:41.042471 [debug] [MainThread]: On debug: select 1 as id
+[0m20:06:41.042841 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:06:44.212297 [error] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=customerlabs-task-8888&j=bq:US:2ea9574a-0192-4e99-9695-765454f7ae8c&page=queryresults
+[0m20:06:44.216924 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m20:06:44.217747 [info ] [MainThread]: [31m1 check failed:[0m
+[0m20:06:44.218252 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  Access Denied: Project customerlabs-task-8888: User does not have bigquery.jobs.create permission in project customerlabs-task-8888.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m20:06:44.219205 [info ] [MainThread]: Your new dbt project "attribution_project" was created!
+Initialized new project in /Users/varmathotakura/deproject/chennai/attribution_project/attribution_project
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:06:44.219732 [info ] [MainThread]: [31mYour profile may need adjustments. You can find the logs of `dbt debug` above[0m
+[0m20:06:44.220544 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 162.5115, "process_in_blocks": "0", "process_kernel_time": 0.905395, "process_mem_max_rss": "244465664", "process_out_blocks": "0", "process_user_time": 5.428913}
+[0m20:06:44.221373 [debug] [MainThread]: Command `dbt init` succeeded at 20:06:44.221204 after 162.51 seconds
+[0m20:06:44.221965 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:06:44.222511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a54e2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1595d0d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x159ccad50>]}
+[0m20:06:44.223065 [debug] [MainThread]: Flushing usage events
+[0m20:06:46.180720 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:24:34.079406 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1062d15e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074424b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1074420c0>]}
+
+
+============================== 13:24:34.083987 | bffd713b-ecdd-47af-b2a0-767e85c1248e ==============================
+[0m13:24:34.083987 [info ] [MainThread]: Running with dbt=1.12.0
+[0m13:24:34.084591 [debug] [MainThread]: running dbt with arguments {'hints_enabled': 'True', 'fail_fast': 'False', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'partial_parse': 'True', 'log_format': 'default', 'use_experimental_parser': 'False', 'static_parser': 'True', 'version_check': 'True', 'debug': 'False', 'no_print': 'None', 'write_json': 'True', 'invocation_command': 'dbt deps', 'printer_width': '80', 'log_path': 'logs', 'empty': 'None', 'target_path': 'None', 'use_colors': 'True', 'quiet': 'False', 'introspect': 'True', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/Users/varmathotakura/.dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'maximum_seed_size_mib': '1', 'log_cache_events': 'False'}
+[0m13:24:34.085349 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/varmathotakura/deproject/chennai/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:24:34.094613 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": false, "command_wall_clock_time": 0.12921542, "process_in_blocks": "0", "process_kernel_time": 0.28616, "process_mem_max_rss": "122437632", "process_out_blocks": "0", "process_user_time": 1.416169}
+[0m13:24:34.095182 [debug] [MainThread]: Command `dbt deps` failed at 13:24:34.095089 after 0.13 seconds
+[0m13:24:34.095572 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1069d7cb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102b36c60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107443f20>]}
+[0m13:24:34.095919 [debug] [MainThread]: Flushing usage events
+[0m13:24:36.407718 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:24:41.525398 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11247f200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115f4e330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115f4e090>]}
+
+
+============================== 13:24:41.528892 | 31efcd54-b2c9-4d10-86a8-4fe06277d6cf ==============================
+[0m13:24:41.528892 [info ] [MainThread]: Running with dbt=1.12.0
+[0m13:24:41.529435 [debug] [MainThread]: running dbt with arguments {'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt deps', 'printer_width': '80', 'log_cache_events': 'False', 'use_colors': 'True', 'partial_parse': 'True', 'debug': 'False', 'cache_selected_only': 'False', 'maximum_seed_size_mib': '1', 'use_experimental_parser': 'False', 'profiles_dir': '/Users/varmathotakura/.dbt', 'write_json': 'True', 'fail_fast': 'False', 'introspect': 'True', 'warn_error': 'None', 'empty': 'None', 'quiet': 'False', 'log_format': 'default', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'version_check': 'True', 'no_print': 'None'}
+[0m13:24:41.530169 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/varmathotakura/deproject/chennai/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:24:41.532482 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": false, "command_wall_clock_time": 0.10501833, "process_in_blocks": "0", "process_kernel_time": 0.165818, "process_mem_max_rss": "121716736", "process_out_blocks": "0", "process_user_time": 1.390859}
+[0m13:24:41.532955 [debug] [MainThread]: Command `dbt deps` failed at 13:24:41.532874 after 0.11 seconds
+[0m13:24:41.533264 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1049aac60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115f4e420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x115f4fef0>]}
+[0m13:24:41.533566 [debug] [MainThread]: Flushing usage events
+[0m13:24:43.034600 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:24:49.319480 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106945d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e4e510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e4e0c0>]}
+
+
+============================== 13:24:49.323002 | b73dfd86-f947-4c8c-bc69-e7f2f475b07d ==============================
+[0m13:24:49.323002 [info ] [MainThread]: Running with dbt=1.12.0
+[0m13:24:49.323568 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'quiet': 'False', 'indirect_selection': 'eager', 'invocation_command': 'dbt deps', 'empty': 'None', 'target_path': 'None', 'version_check': 'True', 'warn_error': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'maximum_seed_size_mib': '1', 'profiles_dir': '/Users/varmathotakura/.dbt', 'debug': 'False', 'static_parser': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs', 'hints_enabled': 'True', 'send_anonymous_usage_stats': 'True', 'printer_width': '80', 'cache_selected_only': 'False', 'log_format': 'default', 'no_print': 'None', 'write_json': 'True', 'log_cache_events': 'False', 'fail_fast': 'False'}
+[0m13:24:49.324334 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/varmathotakura/deproject/chennai/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:24:49.326942 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": false, "command_wall_clock_time": 0.109903835, "process_in_blocks": "0", "process_kernel_time": 0.175281, "process_mem_max_rss": "123256832", "process_out_blocks": "0", "process_user_time": 1.401185}
+[0m13:24:49.327450 [debug] [MainThread]: Command `dbt deps` failed at 13:24:49.327362 after 0.11 seconds
+[0m13:24:49.327777 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106945d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e4e540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107e4ff50>]}
+[0m13:24:49.328093 [debug] [MainThread]: Flushing usage events
+[0m13:24:51.271970 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:24:53.085284 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b66a0c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b88bb90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b88b8f0>]}
+
+
+============================== 13:24:53.089112 | ef653433-402c-400f-8060-efcae595325f ==============================
+[0m13:24:53.089112 [info ] [MainThread]: Running with dbt=1.12.0
+[0m13:24:53.089746 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'hints_enabled': 'True', 'warn_error': 'None', 'use_colors': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'version_check': 'True', 'quiet': 'False', 'cache_selected_only': 'False', 'static_parser': 'True', 'invocation_command': 'dbt build --select +mart_attribution', 'log_cache_events': 'False', 'no_print': 'None', 'log_path': 'logs', 'log_format': 'default', 'use_experimental_parser': 'False', 'empty': 'False', 'profiles_dir': '/Users/varmathotakura/.dbt', 'introspect': 'True', 'write_json': 'True', 'printer_width': '80', 'maximum_seed_size_mib': '1', 'partial_parse': 'True', 'debug': 'False', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m13:24:53.090294 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/varmathotakura/deproject/chennai/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m13:24:53.092738 [debug] [MainThread]: Resource report: {"command_name": "build", "command_success": false, "command_wall_clock_time": 0.11272967, "process_in_blocks": "0", "process_kernel_time": 0.168625, "process_mem_max_rss": "123371520", "process_out_blocks": "0", "process_user_time": 1.421051}
+[0m13:24:53.093193 [debug] [MainThread]: Command `dbt build` failed at 13:24:53.093109 after 0.11 seconds
+[0m13:24:53.093534 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b88bc50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b88bc80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b88bb30>]}
+[0m13:24:53.093857 [debug] [MainThread]: Flushing usage events
+[0m13:24:55.332320 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:10:52.164586 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a5af60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108b19880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a38ba10>]}
+
+
+============================== 15:10:52.168884 | 31854a19-43ae-41a8-8ebb-13139395f548 ==============================
+[0m15:10:52.168884 [info ] [MainThread]: Running with dbt=1.12.0
+[0m15:10:52.169466 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'target_path': 'None', 'use_colors': 'True', 'write_json': 'True', 'profiles_dir': '/Users/varmathotakura/.dbt', 'indirect_selection': 'eager', 'version_check': 'True', 'hints_enabled': 'True', 'debug': 'False', 'log_path': 'logs', 'quiet': 'False', 'static_parser': 'True', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'False', 'partial_parse': 'True', 'log_cache_events': 'False', 'printer_width': '80', 'warn_error': 'None', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'fail_fast': 'False', 'invocation_command': 'dbt run --select mart_attribution', 'log_format': 'default'}
+[0m15:10:52.170025 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/varmathotakura/deproject/chennai/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:10:52.172719 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.12208704, "process_in_blocks": "0", "process_kernel_time": 0.244294, "process_mem_max_rss": "121929728", "process_out_blocks": "0", "process_user_time": 1.412094}
+[0m15:10:52.173162 [debug] [MainThread]: Command `dbt run` failed at 15:10:52.173075 after 0.12 seconds
+[0m15:10:52.173483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103a5af60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a38bb30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a38bd70>]}
+[0m15:10:52.173786 [debug] [MainThread]: Flushing usage events
+[0m15:10:54.742779 [debug] [MainThread]: An error was encountered while trying to flush usage events
