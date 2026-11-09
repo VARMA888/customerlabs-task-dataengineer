@@ -1,3 +1,8 @@
+/*
+    This is the final presentation (mart) layer that directly powers the Looker Studio dashboard. 
+    It joins user traffic touchpoints with purchase events to compute First-Click and Last-Click 
+    attribution using SQL window functions, applying a standard 30-day lookback window.
+*/
 {{ config(materialized='table') }}
 WITH user_traffic AS (
     SELECT
@@ -41,7 +46,7 @@ attribution_prep AS (
     LEFT JOIN user_traffic t 
         ON p.user_pseudo_id = t.user_pseudo_id
         AND t.event_time <= p.purchase_time
-        -- Assumption: 30-day lookback window[cite: 1]
+        -- Assumption: 30-day lookback window
         AND TIMESTAMP_DIFF(p.purchase_time, t.event_time, DAY) <= 30
 )
 

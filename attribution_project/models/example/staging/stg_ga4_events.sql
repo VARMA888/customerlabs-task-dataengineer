@@ -1,3 +1,10 @@
+/*
+    This is the foundational staging layer for our historical GA4 data. 
+    it extracts and flattens the raw nested events, creates a unique surrogate key 
+    (FARM_FINGERPRINT) for deduplication, and strictly limits the query to a 7-day 
+    window to keep data scanning costs safely within the GCP Free Tier limits.
+*/
+
 WITH raw_events AS (
     SELECT * FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`
     -- Limiting to one week to save BigQuery processing bytes during testing

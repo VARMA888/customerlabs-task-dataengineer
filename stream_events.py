@@ -1,3 +1,7 @@
+# This script simulates a live data stream by generating mock GA4 purchase payloads 
+# and appending them to BigQuery. It serves as the real-time ingestion point for our 
+# architecture, allowing us to test how downstream dbt models handle fresh incoming data.
+
 import uuid
 from datetime import datetime, timezone
 from google.cloud import bigquery

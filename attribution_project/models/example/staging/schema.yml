@@ -1,3 +1,8 @@
+# This file defines the data quality tests for our staging layer. 
+# By enforcing unique and not-null constraints on critical fields like event_id 
+# and user_pseudo_id, it acts as a safeguard to catch bad data early and prevent 
+# it from breaking the final attribution dashboard.
+
 version: 2
 
 models:
